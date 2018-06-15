@@ -10,7 +10,7 @@ class EpocaCosmeticos(Extractor):
         menu_categories = self.soup.find_all('a', class_='submenu__list--link')
 
         # for DEMO, the number of categories are limited
-        for item in menu_categories[:2]:
+        for item in menu_categories[:5]:
             if item['href'].startswith('https'):
                 
                 source_product_list = self.open_url(item['href'])
