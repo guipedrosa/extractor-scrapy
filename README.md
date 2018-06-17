@@ -21,5 +21,5 @@ Create an class that inherite the Extractor class in Extractor.py and customize 
 
 # Future updates (todo)
 
-* Replace BeatifulSoup by another librarie wich simulate a real browser, like Selenium/Webdriver
+* Replace BeatifulSoup by another library wich simulate a real browser, like Selenium/Webdriver
 
